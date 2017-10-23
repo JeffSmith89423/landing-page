@@ -1,0 +1,116 @@
+body{
+    margin:0;
+    height: 100vh;
+    width:100%;
+}
+header{
+    height:10%;
+    background-color: black;
+}
+/* .container{
+    height: 80%;
+} */
+footer{
+    height: 10%;
+    background-color: black;
+}
+.photo{
+    background-image: url("/assets/rain-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40em;
+}
+
+    
+}
+.headshot{
+    height: 300px;
+    border-radius: 15%;
+}
+.flex{
+    display: flex;
+    
+}
+.justify-center{
+     justify-content: center; 
+}
+.align-center{
+    align-items: center;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+.col-sm-4.flex{
+  height: 560px;
+  }
+  .direction-column{
+      flex-direction: column;
+  }
+.col-sm-8.flex{
+    height:560px;
+    
+}
+.text{
+    color:#eee3dd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:4em;
+    
+}
+.testimonial{
+    height:1em;
+    width:100%;
+    background: #6d7581;
+    }
+.resume{
+    height:30em;
+    background: #486568;
+}
+.coming-soon{
+    height:25em;
+    border-radius: 15%;
+    
+}
+.reinforcement-statement{
+    height:1em;
+    background: #6d7581;
+}
+.projects-r-1{
+height: 420px;
+background: silver;
+}
+.projects-r-2{
+    height: 420px;
+    background: silver;
+}
+.coding-resume{
+    height: 300px;
+    border-radius: 15%;
+}
+.portfolio{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:6em;
+    background: silver;
+}
+.container-fluid{
+    background: silver;
+}
+.rowtwo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 420px;
+    
+
+}
+.resumetext{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 420px;
+}
+/* .offset-head{
+    offset-inline-start: 40px;
+} */
